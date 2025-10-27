@@ -11,7 +11,7 @@ import {
 
 const router = express.Router();
 
-// CRUD
+// CRUD aaa
 router.post("/", createAppointment);
 router.get("/", getAllAppointments);
 router.get("/:id", getAppointmentById);
